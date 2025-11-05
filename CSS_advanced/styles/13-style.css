@@ -6,8 +6,9 @@
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
 
-  --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
-  --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -39,23 +40,6 @@ body {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
-}
-
-a[href] {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-a[href]:visited {
-  font-style: italic;
-}
-
-a[href]:hover {
-  text-decoration: underline;
-}
-
-a[href]:active {
-  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -93,4 +77,21 @@ h5,
 h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a[href]:visited {
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
